@@ -108,7 +108,7 @@ class _CategoryCardState extends State<CategoryCard> {
               //   height: 70,
               //   child: Image.asset(widget.image, fit: BoxFit.contain),
               // ),
-              const SizedBox(height: 40),
+              // const SizedBox(height: 40),
               Text(
                 widget.title,
                 style: const TextStyle(

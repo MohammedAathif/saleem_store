@@ -130,22 +130,59 @@ List categories = [
     "subcategories": [
       {
         "name": "Lays",
-        "image": "",
         "variants": [
-          {"name": "Small", "price": 10},
-          {"name": "Medium", "price": 20},
-          {"name": "Large", "price": 35},
-        ],
+          { "name": "Classic Salted - 52g", "price": 20 },
+          { "name": "Magic Masala - 52g", "price": 20 },
+          { "name": "Large Pack", "price": 50 }
+        ]
       },
       {
-        "name": "KurKure",
-        "image": "",
+        "name": "Kurkure",
         "variants": [
-          {"name": "Small", "price": 8},
-          {"name": "Medium", "price": 18},
-        ],
+          { "name": "Masala Munch 35g", "price": 10 },
+          { "name": "Green Chutney 35g", "price": 10 },
+          { "name": "Large Pack", "price": 20 }
+        ]
       },
-    ],
+      {
+        "name": "Haldiram Namkeen",
+        "variants": [
+          { "name": "Bhujia 100g", "price": 35 },
+          { "name": "Mixture 100g", "price": 40 },
+          { "name": "Khatta Meetha 100g", "price": 35 }
+        ]
+      },
+      {
+        "name": "Parle-G",
+        "variants": [
+          { "name": "Small Pack", "price": 5 },
+          { "name": "Medium Pack", "price": 10 },
+          { "name": "Large Pack", "price": 30 }
+        ]
+      },
+      {
+        "name": "Britannia Good Day",
+        "variants": [
+          { "name": "Butter 60g", "price": 10 },
+          { "name": "Cashew 72g", "price": 20 },
+          { "name": "Large Pack", "price": 30 }
+        ]
+      },
+      {
+        "name": "Oreo",
+        "variants": [
+          { "name": "Vanilla 120g", "price": 20 },
+          { "name": "Chocolate 120g", "price": 20 }
+        ]
+      },
+      {
+        "name": "Rusk",
+        "variants": [
+          { "name": "Milk Rusk 200g", "price": 35 },
+          { "name": "Elaichi Rusk 200g", "price": 40 }
+        ]
+      }
+    ]
   },
   {
     "name": "Chocolate",
@@ -160,6 +197,54 @@ List categories = [
       },
       {
         "name": "KitKat",
+        "image": "",
+        "variants": [
+          {"name": "2 Finger", "price": 10},
+          {"name": "4 Finger", "price": 20},
+        ],
+      },
+      {
+        "name": "5 Star",
+        "image": "",
+        "variants": [
+          {"name": "50g", "price": 25},
+          {"name": "100g", "price": 45},
+        ],
+      },
+      {
+        "name": "Munch",
+        "image": "",
+        "variants": [
+          {"name": "2 Finger", "price": 10},
+          {"name": "4 Finger", "price": 20},
+        ],
+      },
+      {
+        "name": "Milky Bar",
+        "image": "",
+        "variants": [
+          {"name": "50g", "price": 25},
+          {"name": "100g", "price": 45},
+        ],
+      },
+      {
+        "name": "Perk",
+        "image": "",
+        "variants": [
+          {"name": "2 Finger", "price": 10},
+          {"name": "4 Finger", "price": 20},
+        ],
+      },
+      {
+        "name": "Shots",
+        "image": "",
+        "variants": [
+          {"name": "2 Finger", "price": 10},
+          {"name": "4 Finger", "price": 20},
+        ],
+      },
+      {
+        "name": "Gems",
         "image": "",
         "variants": [
           {"name": "2 Finger", "price": 10},
@@ -187,13 +272,77 @@ List categories = [
           {"name": "1kg", "price": 75},
         ],
       },
+      {
+        "name": "Lizol",
+        "image": "",
+        "variants": [
+          {"name": "500ml", "price": 35},
+          {"name": "1L", "price": 60},
+        ],
+      },
+      {
+        "name": "Harpic",
+        "image": "",
+        "variants": [
+          {"name": "500g", "price": 40},
+          {"name": "1kg", "price": 75},
+        ],
+      },
+      {
+        "name": "Surf excel",
+        "image": "",
+        "variants": [
+          {"name": "500ml", "price": 35},
+          {"name": "1L", "price": 60},
+        ],
+      },
+      {
+        "name": "Comfort",
+        "image": "",
+        "variants": [
+          {"name": "500g", "price": 40},
+          {"name": "1kg", "price": 75},
+        ],
+      },
+      {
+        "name": "Rin",
+        "image": "",
+        "variants": [
+          {"name": "500ml", "price": 35},
+          {"name": "1L", "price": 60},
+        ],
+      },
+      {
+        "name": "Rin Ala",
+        "image": "",
+        "variants": [
+          {"name": "500g", "price": 40},
+          {"name": "1kg", "price": 75},
+        ],
+      },
+      {
+        "name": "FAB",
+        "image": "",
+        "variants": [
+          {"name": "500g", "price": 40},
+          {"name": "1kg", "price": 75},
+        ],
+      },
+      {
+        "name": "Colin",
+        "image": "",
+        "variants": [
+          {"name": "500g", "price": 40},
+          {"name": "1kg", "price": 75},
+        ],
+      },
     ],
   },
   {
     "name": "Beverages",
     "subcategories": [
       {
-        "name": "Phenoyl",
+        "name": "Coke",
         "image": "",
         "variants": [
           {"name": "500ml", "price": 35},
@@ -201,20 +350,7 @@ List categories = [
         ],
       },
       {
-        "name": "Detergent Powder",
-        "image": "",
-        "variants": [
-          {"name": "500g", "price": 40},
-          {"name": "1kg", "price": 75},
-        ],
-      },
-    ],
-  },
-  {
-    "name": "Baby Products",
-    "subcategories": [
-      {
-        "name": "Phenoyl",
+        "name": "Fanta",
         "image": "",
         "variants": [
           {"name": "500ml", "price": 35},
@@ -222,11 +358,35 @@ List categories = [
         ],
       },
       {
-        "name": "Detergent Powder",
+        "name": "Maaza",
         "image": "",
         "variants": [
-          {"name": "500g", "price": 40},
-          {"name": "1kg", "price": 75},
+          {"name": "500ml", "price": 35},
+          {"name": "1L", "price": 60},
+        ],
+      },
+      {
+        "name": "Sprite",
+        "image": "",
+        "variants": [
+          {"name": "500ml", "price": 35},
+          {"name": "1L", "price": 60},
+        ],
+      },
+      {
+        "name": "Limca",
+        "image": "",
+        "variants": [
+          {"name": "500ml", "price": 35},
+          {"name": "1L", "price": 60},
+        ],
+      },
+      {
+        "name": "Bovonto",
+        "image": "",
+        "variants": [
+          {"name": "500ml", "price": 35},
+          {"name": "1L", "price": 60},
         ],
       },
     ],
@@ -256,7 +416,7 @@ List categories = [
     "name": "Pest Control",
     "subcategories": [
       {
-        "name": "Phenoyl",
+        "name": "Hit Cockroach",
         "image": "",
         "variants": [
           {"name": "500ml", "price": 35},
@@ -264,7 +424,39 @@ List categories = [
         ],
       },
       {
-        "name": "Detergent Powder",
+        "name": "Hit Mosquito",
+        "image": "",
+        "variants": [
+          {"name": "500g", "price": 40},
+          {"name": "1kg", "price": 75},
+        ],
+      },
+      {
+        "name": "Hit Gel",
+        "image": "",
+        "variants": [
+          {"name": "500g", "price": 40},
+          {"name": "1kg", "price": 75},
+        ],
+      },
+      {
+        "name": "Liquids",
+        "image": "",
+        "variants": [
+          {"name": "500g", "price": 40},
+          {"name": "1kg", "price": 75},
+        ],
+      },
+      {
+        "name": "Machines",
+        "image": "",
+        "variants": [
+          {"name": "500g", "price": 40},
+          {"name": "1kg", "price": 75},
+        ],
+      },
+      {
+        "name": "Mosquito Lotion",
         "image": "",
         "variants": [
           {"name": "500g", "price": 40},
@@ -277,7 +469,7 @@ List categories = [
     "name": "Instant Foods",
     "subcategories": [
       {
-        "name": "Phenoyl",
+        "name": "Maggi",
         "image": "",
         "variants": [
           {"name": "500ml", "price": 35},
@@ -285,7 +477,7 @@ List categories = [
         ],
       },
       {
-        "name": "Detergent Powder",
+        "name": "Yipee",
         "image": "",
         "variants": [
           {"name": "500g", "price": 40},
@@ -294,4 +486,174 @@ List categories = [
       },
     ],
   },
+  {
+    "name": "Body Spray & Deodorants",
+    "subcategories": [
+      {
+        "name": "Fogg Body Spray",
+        "image": "",
+        "variants": [
+          { "name": "120ml", "price": 120 },
+          { "name": "150ml", "price": 150 }
+        ]
+      },
+      {
+        "name": "Axe",
+        "image": "",
+        "variants": [
+          { "name": "120ml", "price": 120 },
+          { "name": "150ml", "price": 150 }
+        ]
+      },
+      {
+        "name": "Nivea",
+        "image": "",
+        "variants": [
+          { "name": "120ml", "price": 120 },
+          { "name": "150ml", "price": 150 }
+        ]
+      },
+      {
+        "name": "Park Avenue",
+        "image": "",
+        "variants": [
+          { "name": "120ml", "price": 120 },
+          { "name": "150ml", "price": 150 }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Face Wash",
+    "subcategories": [
+      {
+        "name": "Himalaya Face Wash",
+        "image": "",
+        "variants": [
+          { "name": "50ml", "price": 65 },
+          { "name": "100ml", "price": 120 }
+        ]
+      },
+      {
+        "name": "Ponds Face Wash",
+        "image": "",
+        "variants": [
+          { "name": "50ml", "price": 60 },
+          { "name": "100ml", "price": 115 }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Face Creams",
+    "subcategories": [
+      {
+        "name": "Fair & Lovely",
+        "image": "",
+        "variants": [
+          { "name": "25g", "price": 35 },
+          { "name": "50g", "price": 65 },
+          { "name": "80g", "price": 110 }
+        ]
+      },
+      {
+        "name": "Fair & Lovely men",
+        "image": "",
+        "variants": [
+          { "name": "25g", "price": 35 },
+          { "name": "50g", "price": 65 },
+          { "name": "80g", "price": 110 }
+        ]
+      },
+      {
+        "name": "Fair & Handsome",
+        "image": "",
+        "variants": [
+          { "name": "25g", "price": 35 },
+          { "name": "50g", "price": 65 },
+          { "name": "80g", "price": 110 }
+        ]
+      },
+      {
+        "name": "Vicco Turmeric",
+        "image": "",
+        "variants": [
+          { "name": "25g", "price": 35 },
+          { "name": "50g", "price": 65 },
+          { "name": "80g", "price": 110 }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Toothpaste",
+    "subcategories": [
+      {
+        "name": "Colgate",
+        "variants": [
+          {"name": "20g", "price": 10},
+          {"name": "50g", "price": 20},
+          {"name": "100g", "price": 40}
+        ]
+      },
+      {
+        "name": "Pepsodent",
+        "variants": [
+          {"name": "50g", "price": 18},
+          {"name": "100g", "price": 35}
+        ]
+      },
+      {
+        "name": "Close-up",
+        "variants": [
+          {"name": "50g", "price": 18},
+          {"name": "100g", "price": 35}
+        ]
+      },
+      {
+        "name": "Dabur",
+        "variants": [
+          {"name": "50g", "price": 18},
+          {"name": "100g", "price": 35}
+        ]
+      },
+      {
+        "name": "Sensodyne",
+        "variants": [
+          {"name": "50g", "price": 18},
+          {"name": "100g", "price": 35}
+        ]
+      },
+      {
+        "name": "Colgate Salt",
+        "variants": [
+          {"name": "50g", "price": 18},
+          {"name": "100g", "price": 35}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Toothbrush",
+    "subcategories": [
+      {
+        "name": "Oral-B",
+        "image": "",
+        "variants": [
+          { "name": "Soft", "price": 25 },
+          { "name": "Medium", "price": 30 }
+        ]
+      },
+      {
+        "name": "Colgate",
+        "image": "",
+        "variants": [
+          { "name": "Soft", "price": 20 },
+          { "name": "Kids", "price": 28 }
+        ]
+      }
+    ]
+  }
+
+
 ];
