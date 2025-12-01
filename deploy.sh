@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# 1. Build Flutter web
-flutter build web
+# 1. Build Flutter web with correct base href
+flutter build web --base-href /saleem_store/
 
 # 2. Remove old docs folder
 rm -rf docs
